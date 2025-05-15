@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".SyaratKetentuan">
+
+    <ImageView
+        android:id="@+id/iv_kembali"
+        android:layout_width="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:src="@drawable/arrowbackblack"
+        android:contentDescription="Back Button" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Terms &amp; Conditions"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="26dp"
+                android:text="Before using the YummyBook app, please read and agree to the following terms and conditions."
+                android:textAlignment="center"
+                android:textColor="#C1C1C1"
+                android:layout_marginBottom="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Acceptance of Terms"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="By using the YummyBook app, you agree to comply with all applicable terms and conditions. If you do not agree, it is recommended not to use this app." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. User Account"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="- Users must provide accurate data when registering an account.\n- Users are responsible for keeping their account and password confidential." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Copyright and Content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="- All recipes and content in the app are owned by YummyBook or the content owners.\n- It is prohibited to use content without written permission for commercial purposes." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Data Privacy"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="- User data is only used for app service purposes.\n- YummyBook is committed to keeping user data confidential and not sharing it with third parties without permission." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Prohibited Use"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="Users are prohibited from using the app for illegal activities, spreading negative content, or harming other users." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. App Updates"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="YummyBook reserves the right to update features, fixes, and change terms at any time without prior notice." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Account Termination"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="YummyBook reserves the right to suspend or terminate user accounts that violate these terms." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8. Limitation of Liability"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="40dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/black"
+                    android:text="YummyBook is not responsible for any loss or damage arising from the use of the app beyond the developer's control." />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

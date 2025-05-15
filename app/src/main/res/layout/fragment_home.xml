@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Category"
+        android:layout_gravity="center_horizontal"/>
+
+    <GridLayout
+        android:id="@+id/layoutKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:useDefaultMargins="true"
+        android:visibility="gone"
+        android:alignmentMode="alignMargins"
+        android:padding="2dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnBeef"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Beef" />
+
+        <Button
+            android:id="@+id/btnBreakfast"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Breakfast" />
+
+        <Button
+            android:id="@+id/btnChicken"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Chicken" />
+
+        <Button
+            android:id="@+id/btnDessert"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Dessert" />
+
+        <Button
+            android:id="@+id/btnGoat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Goat" />
+
+        <Button
+            android:id="@+id/btnLamb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Lamb" />
+
+        <Button
+            android:id="@+id/btnMisc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:textSize="10dp"
+            android:text="Miscellaneous" />
+
+        <Button
+            android:id="@+id/btnPasta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Pasta" />
+
+        <Button
+            android:id="@+id/btnPork"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Pork" />
+
+        <Button
+            android:id="@+id/btnSeafood"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Seafood" />
+
+        <Button
+            android:id="@+id/btnSide"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Side" />
+
+        <Button
+            android:id="@+id/btnStarter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Starter" />
+
+        <Button
+            android:id="@+id/btnVegan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Vegan" />
+
+        <Button
+            android:id="@+id/btnVegetarian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="2dp"
+            android:textSize="10dp"
+            android:backgroundTint="#AFAAD7"
+            android:text="Vegetarian" />
+
+    </GridLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvResep"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
